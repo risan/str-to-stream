@@ -42,10 +42,8 @@ class StrReadable extends Readable {
 
     let pushedBytes = 0;
 
-    while(pushedBytes < buff.length) {
-      this.push(
-        buff.slice(pushedBytes, pushedBytes + size)
-      );
+    while (pushedBytes < buff.length) {
+      this.push(buff.slice(pushedBytes, pushedBytes + size));
 
       pushedBytes += size;
     }

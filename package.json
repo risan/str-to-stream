@@ -1,7 +1,7 @@
 {
   "name": "str-to-stream",
   "description": "Convert string into a readable stream",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/risan/str-to-stream#readme",
   "author": {

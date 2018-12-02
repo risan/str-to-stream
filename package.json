@@ -1,28 +1,25 @@
 {
   "name": "str-to-stream",
-  "description": "Convert string into a readable stream",
   "version": "1.0.0",
-  "license": "MIT",
+  "description": "Convert string into a readable stream",
+  "keywords": [
+    "string",
+    "stream"
+  ],
   "homepage": "https://github.com/risan/str-to-stream#readme",
+  "bugs": {
+    "url": "https://github.com/risan/str-to-stream/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "Risan Bagja Pradana",
     "email": "risanbagja@gmail.com",
     "url": "https://bagja.net"
   },
+  "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/risan/str-to-stream.git"
-  },
-  "bugs": {
-    "url": "https://github.com/risan/str-to-stream/issues"
-  },
-  "keywords": [
-    "string",
-    "stream"
-  ],
-  "main": "src/index.js",
-  "engines": {
-    "node": ">=8.0.0"
+    "url": "https://github.com/risan/str-to-stream.git"
   },
   "scripts": {
     "lint": "eslint ./",
@@ -38,5 +35,8 @@
     "eslint-plugin-prettier": "^3.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.15.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   }
 }

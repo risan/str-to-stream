@@ -1,25 +1,19 @@
 # String to Stream
 
-[![Build Status](https://flat.badgen.net/travis/risan/str-to-stream)](https://travis-ci.org/risan/str-to-stream)
-[![Test Coverage](https://flat.badgen.net/codeclimate/coverage/risan/str-to-stream)](https://codeclimate.com/github/risan/str-to-stream)
-[![Maintainability](https://flat.badgen.net/codeclimate/maintainability/risan/str-to-stream)](https://codeclimate.com/github/risan/str-to-stream)
-[![Latest Stable Version](https://flat.badgen.net/npm/v/str-to-stream)](https://www.npmjs.com/package/str-to-stream)
-[![Node Version](https://flat.badgen.net/npm/node/str-to-stream)](https://www.npmjs.com/package/str-to-stream)
-[![Code Style: Prettier](https://flat.badgen.net/badge/code%20style/prettier/ff69b4)](https://github.com/prettier/prettier)
-[![License](https://flat.badgen.net/npm/license/str-to-stream)](https://github.com/risan/str-to-stream/blob/master/LICENSE)
+[![Build Status](https://badgen.net/travis/risan/str-to-stream)](https://travis-ci.org/risan/str-to-stream)
+[![Test Covarage](https://badgen.net/codecov/c/github/risan/str-to-stream)](https://codecov.io/gh/risan/str-to-stream)
+[![Greenkeeper](https://badges.greenkeeper.io/risan/str-to-stream.svg)](https://greenkeeper.io)
+[![Latest Version](https://badgen.net/npm/v/str-to-stream)](https://www.npmjs.com/package/str-to-stream)
 
 Convert string into a readable stream.
 
-## Install
+## Installation
 
 ```bash
 $ npm install str-to-stream
-
-# Or if you use Yarn
-$ yarn add str-to-stream
 ```
 
-## Quick Start
+## Usage
 
 Pipe a string into a writable stream:
 
@@ -43,7 +37,7 @@ stream.on("data", chunk => console.log(`Data received: ${chunk.toString()}`));
 stream.on("end", () => console.log("All data have been received."));
 ```
 
-## Recipe
+## Recipes
 
 ### Set the Data Bytes Limit for Each Chunk
 
@@ -111,4 +105,4 @@ It returns [`Readable` Stream](https://nodejs.org/api/stream.html#stream_readabl
 
 ## License
 
-MIT © [Risan Bagja Pradana](https://bagja.net)
+[MIT](https://github.com/risan/str-to-stream/blob/master/LICENSE) © [Risan Bagja Pradana](https://bagja.net)

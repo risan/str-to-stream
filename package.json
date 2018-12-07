@@ -1,7 +1,7 @@
 {
   "name": "str-to-stream",
-  "version": "1.0.1",
-  "description": "Convert string into a readable stream",
+  "version": "1.0.2",
+  "description": "Convert string into a readable stream.",
   "keywords": [
     "string",
     "stream"

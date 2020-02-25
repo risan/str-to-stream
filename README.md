@@ -2,7 +2,6 @@
 
 [![Build Status](https://badgen.net/travis/risan/str-to-stream)](https://travis-ci.org/risan/str-to-stream)
 [![Test Covarage](https://badgen.net/codecov/c/github/risan/str-to-stream)](https://codecov.io/gh/risan/str-to-stream)
-[![Greenkeeper](https://badges.greenkeeper.io/risan/str-to-stream.svg)](https://greenkeeper.io)
 [![Latest Version](https://badgen.net/npm/v/str-to-stream)](https://www.npmjs.com/package/str-to-stream)
 
 Convert string into a readable stream.
